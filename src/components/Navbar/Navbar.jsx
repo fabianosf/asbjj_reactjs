@@ -33,7 +33,7 @@ function Navbar() {
   };
 
   return (
-    <>
+    <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
@@ -69,11 +69,19 @@ function Navbar() {
               <li className="nav-item">
                 <Link className="nav-link" to="/contact">Contact</Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/login">Login</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/signup">Signup</Link>
+              </li>
             </ul>
+            {/*  
             <form className="d-flex gap-2">
               <button className="btn btn-info" type="button">Login</button>
               <button className="btn btn-success" type="button">Signup</button>
             </form>
+            */}
           </div>
         </div>
       </nav>
@@ -106,7 +114,7 @@ function Navbar() {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }
 
