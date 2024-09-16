@@ -1,4 +1,4 @@
-/* Estilo geral do body para ocupar a altura total da tela */
+
 body {
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-}
+} 
 
 /* Container principal que envolve o conteúdo */
 .main-content {
