@@ -23,7 +23,7 @@ function Login() {
         <div id="root">
             <div className="main-content">
                 <div className="form-container">
-                    <h2>Registro</h2>
+                    <h2>Entrar</h2>
                     <form onSubmit={handleSubmit}>
                         <input
                             type="text"
@@ -56,13 +56,12 @@ function Login() {
                          
                         <div className="btn-container">
                             <button type="submit" className="btn btn-primary">
-                                Register
+                                Login
                             </button>
                         </div>
                     </form>
                 </div>
-            </div> 
- 
+            </div>  
             <Footer />          
         </div>
         
